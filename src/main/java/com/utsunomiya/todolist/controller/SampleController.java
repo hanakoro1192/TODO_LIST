@@ -8,6 +8,10 @@ public class SampleController {
 
     @RequestMapping("/api")
     public String sample() {
+        modelservis.book()
+
+
+
         return "sample";
     }
 }
